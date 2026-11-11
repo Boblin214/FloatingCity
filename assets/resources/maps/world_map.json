@@ -1,0 +1,150 @@
+{
+  "id": "world-main-v1",
+  "version": 2,
+  "size": {
+    "width": 2700,
+    "height": 1280
+  },
+  "background": "legacy/map/world_background",
+  "camera": {
+    "initialZoom": 0.82,
+    "minZoom": 0.68,
+    "maxZoom": 1.55
+  },
+  "playerCityCandidates": [
+    { "mapX": 920, "mapY": 820 },
+    { "mapX": 1780, "mapY": 820 },
+    { "mapX": 960, "mapY": 450 },
+    { "mapX": 1750, "mapY": 480 },
+    { "mapX": 1100, "mapY": 860 },
+    { "mapX": 1600, "mapY": 430 }
+  ],
+  "fog": {
+    "cellWidth": 180,
+    "cellHeight": 128,
+    "safeRadius": 2
+  },
+  "locations": [
+    {
+      "id": "central-court",
+      "name": "中央朝廷",
+      "type": "central_court",
+      "mapX": 1350,
+      "mapY": 640,
+      "icon": "legacy/map/nodes/city_big_03",
+      "status": "available",
+      "discovered": true,
+      "description": "浮空主岛上的中央朝廷，天下势力交汇之地。"
+    },
+    {
+      "id": "player-city",
+      "name": "我的主城",
+      "type": "player_city",
+      "mapX": 690,
+      "mapY": 865,
+      "icon": "legacy/map/nodes/city_small_01",
+      "status": "home",
+      "discovered": true,
+      "description": "属于你的浮空主城。位置首次生成后会保存在本地。"
+    },
+    {
+      "id": "tribe-qinglan",
+      "name": "青岚部落",
+      "type": "tribe",
+      "mapX": 465,
+      "mapY": 380,
+      "icon": "legacy/map/nodes/city_small_02",
+      "status": "neutral",
+      "discovered": true,
+      "description": "云海边缘的中立部落，暂未建立外交关系。"
+    },
+    {
+      "id": "tribe-chisha",
+      "name": "赤砂部落",
+      "type": "tribe",
+      "mapX": 1010,
+      "mapY": 265,
+      "icon": "legacy/map/nodes/city_small_05",
+      "status": "neutral",
+      "discovered": true,
+      "description": "盘踞在荒原上的赤砂部族，尚待接触。"
+    },
+    {
+      "id": "tribe-beilin",
+      "name": "北林部落",
+      "type": "tribe",
+      "mapX": 2080,
+      "mapY": 330,
+      "icon": "legacy/map/nodes/city_small_08",
+      "status": "neutral",
+      "discovered": true,
+      "description": "北境林海中的幸存者部落。"
+    },
+    {
+      "id": "tribe-yunshui",
+      "name": "云水部落",
+      "type": "tribe",
+      "mapX": 740,
+      "mapY": 1010,
+      "icon": "legacy/map/nodes/city_small_10",
+      "status": "neutral",
+      "discovered": true,
+      "description": "临水而居的部落，以渔船和木栅为主要防御。"
+    },
+    {
+      "id": "tribe-hongye",
+      "name": "红叶部落",
+      "type": "tribe",
+      "mapX": 1980,
+      "mapY": 1015,
+      "icon": "legacy/map/nodes/city_small_11",
+      "status": "neutral",
+      "discovered": true,
+      "description": "东南丘陵中的部落，尚未向任何势力效忠。"
+    },
+    {
+      "id": "city-wangbei",
+      "name": "望北城",
+      "type": "city",
+      "mapX": 330,
+      "mapY": 755,
+      "icon": "legacy/map/nodes/city_big_01",
+      "status": "locked",
+      "discovered": true,
+      "description": "北境道路上的大型城池，城防信息尚不完整。"
+    },
+    {
+      "id": "city-linjiang",
+      "name": "临江城",
+      "type": "city",
+      "mapX": 2310,
+      "mapY": 735,
+      "icon": "legacy/map/nodes/city_big_05",
+      "status": "locked",
+      "discovered": true,
+      "description": "临江而建的富庶城池，水深城坚。"
+    },
+    {
+      "id": "outpost-duanyue",
+      "name": "断岳关",
+      "type": "outpost",
+      "mapX": 1040,
+      "mapY": 530,
+      "icon": "legacy/map/nodes/city_small_03",
+      "status": "neutral",
+      "discovered": true,
+      "description": "横断山脉中的险要关隘。"
+    },
+    {
+      "id": "outpost-yunzhan",
+      "name": "云栈哨站",
+      "type": "outpost",
+      "mapX": 1720,
+      "mapY": 515,
+      "icon": "legacy/map/nodes/city_small_09",
+      "status": "neutral",
+      "discovered": true,
+      "description": "连通中央朝廷与东南区域的小型哨站。"
+    }
+  ]
+}

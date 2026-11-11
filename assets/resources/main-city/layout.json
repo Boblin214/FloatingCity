@@ -1,0 +1,86 @@
+{
+  "tileWidth": 104,
+  "tileHeight": 52,
+  "buildings": [
+    {
+      "id": "palace",
+      "name": "中央主殿",
+      "kind": "palace",
+      "gridX": -1,
+      "gridY": -1,
+      "width": 250,
+      "height": 195,
+      "accent": "#6D382F"
+    },
+    {
+      "id": "barracks",
+      "name": "守备营",
+      "kind": "barracks",
+      "gridX": -4,
+      "gridY": 1,
+      "width": 172,
+      "height": 122,
+      "accent": "#376774"
+    },
+    {
+      "id": "market",
+      "name": "云上集市",
+      "kind": "market",
+      "gridX": 1,
+      "gridY": -4,
+      "width": 166,
+      "height": 116,
+      "accent": "#B56B36"
+    },
+    {
+      "id": "workshop",
+      "name": "工匠坊",
+      "kind": "workshop",
+      "gridX": -4,
+      "gridY": 3,
+      "width": 160,
+      "height": 118,
+      "accent": "#4A6474"
+    },
+    {
+      "id": "granary",
+      "name": "丰饶粮仓",
+      "kind": "granary",
+      "gridX": 3,
+      "gridY": -4,
+      "width": 158,
+      "height": 110,
+      "accent": "#8B633B"
+    },
+    {
+      "id": "gate",
+      "name": "天穹城门",
+      "kind": "gate",
+      "gridX": 1,
+      "gridY": 4,
+      "width": 210,
+      "height": 140,
+      "accent": "#8E463C"
+    },
+    {
+      "id": "tower-west",
+      "name": "西瞭望塔",
+      "kind": "tower",
+      "gridX": -3,
+      "gridY": 5,
+      "width": 108,
+      "height": 168,
+      "accent": "#8A5C38"
+    },
+    {
+      "id": "tower-east",
+      "name": "东瞭望塔",
+      "kind": "tower",
+      "gridX": 5,
+      "gridY": -3,
+      "width": 108,
+      "height": 168,
+      "accent": "#8A5C38"
+    }
+  ]
+}
